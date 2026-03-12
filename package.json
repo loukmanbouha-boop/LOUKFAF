@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "type": "module",
 "scripts": {
-  "dev": "NODE_ENV=development tsx serveur/index.ts",
-  "build": "echo build",
-  "start": "NODE_ENV=production tsx serveur/index.ts",
-  "check": "tsc",
-  "db:push": "drizzle-kit push"
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
 },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
